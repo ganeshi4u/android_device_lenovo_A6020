@@ -95,7 +95,7 @@ PRODUCT_PACKAGES += \
     camera.msm8916 \
     libboringssl-compat \
     libbson \
-    Snap
+    Camero
 
 # Display
 PRODUCT_PACKAGES += \
