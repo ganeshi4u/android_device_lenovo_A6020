@@ -1,0 +1,11 @@
+# mount point	fstype	device			[device2]   fstype2
+
+/system       ext4          /dev/block/mmcblk0p23
+/data         ext4          /dev/block/mmcblk0p30
+/cache        ext4          /dev/block/mmcblk0p25
+/boot         emmc          /dev/block/mmcblk0p22
+/recovery     emmc          /dev/block/mmcblk0p26
+/persist      ext4          /dev/block/mmcblk0p24    flags=display="Persist";wipeingui      
+
+/external_sd  vfat          /dev/block/mmcblk1p1  /dev/block/mmcblk1     flags=display="Micro SDcard";storage;wipeingui;removable
+/usb_otg      vfat          /dev/block/sda1	  /dev/block/sda                 flags=display="USB-OTG";storage;wipeingui;removable
